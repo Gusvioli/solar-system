@@ -1,0 +1,245 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: aliceblue;
+}
+
+li {
+  list-style-type: none;
+}
+
+header > h1 {
+  display: flex;
+  font-size: 42px;
+  justify-content: center;
+}
+
+img {
+  width: 120px;
+}
+
+.missions-title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 26px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.mission-card {
+  margin: 5px;
+  width: 90%;
+}
+
+.li__m {
+  width: 90%;
+}
+
+.li__mission {
+  align-items: flex-start;
+  background-color: rgb(58, 57, 57);
+  border: 1px solid rgb(146, 144, 144);
+  color: rgb(232, 235, 221);
+  display: flex;
+  flex-direction: row wrap;
+  font-size: 18px;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.li__mission:hover {
+  align-items: flex-start;
+  background-color: rgb(29, 26, 26);
+  border: 1px solid rgb(75, 61, 61);
+  color: rgb(232, 235, 221);
+  display: flex;
+  flex-direction: row wrap;
+  font-size: 18px;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.li__mission > div {
+  align-items: center;
+  background-color: rgb(82, 81, 80);
+  display: flex;
+  height: 30px;
+  justify-content: flex-start;
+  margin: 2px;
+  padding: 2px 15px;
+  width: 25%;
+}
+
+.solar-system {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.solar-system-title {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.solar-system-title > h2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.rotate0:hover {
+  animation-duration: 15s;
+  animation-name: rotate0;
+}
+
+.rotate1:hover {
+  animation-duration: 30s;
+  animation-name: rotate1;
+}
+
+.rotate2:hover {
+  animation-duration: 3s;
+  animation-name: rotate2;
+}
+
+.rotate3:hover {
+  animation-duration: 3.3s;
+  animation-name: rotate3;
+}
+
+.rotate4:hover {
+  animation-duration: 1s;
+  animation-name: rotate4;
+}
+
+.rotate5:hover {
+  animation-duration: 2s;
+  animation-name: rotate5;
+}
+
+.rotate6:hover {
+  animation-duration: 2.7s;
+  animation-name: rotate6;
+}
+
+.rotate7:hover {
+  animation-duration: 20s;
+  animation-name: rotate7;
+}
+
+.li-alinhamento {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+@keyframes rotate0 {
+
+  from {
+    transform: rotate(1deg);
+    width: 120px;
+  }
+
+  to {
+    transform: rotate(360deg);
+    width: 120px;
+  }
+}
+
+@keyframes rotate1 {
+
+  from {
+    transform: rotate(1deg);
+    width: 120px;
+  }
+
+  to {
+    transform: rotate(360deg);
+    width: 120px;
+  }
+}
+
+@keyframes rotate2 {
+
+  from {
+    transform: rotate(1deg);
+    width: 120px;
+  }
+
+  to {
+    transform: rotate(360deg);
+    width: 120px;
+  }
+}
+
+@keyframes rotate3 {
+
+  from {
+    transform: rotate(1deg);
+    width: 120px;
+  }
+
+  to {
+    transform: rotate(360deg);
+    width: 120px;
+  }
+}
+
+@keyframes rotate4 {
+
+  from {
+    transform: rotate(1deg);
+    width: 120px;
+  }
+
+  to {
+    transform: rotate(360deg);
+    width: 120px;
+  }
+}
+
+@keyframes rotate5 {
+
+  from {
+    transform: rotate(1deg);
+    width: 120px;
+  }
+
+  to {
+    transform: rotate(360deg);
+    width: 120px;
+  }
+}
+
+@keyframes rotate6 {
+
+  from {
+    transform: rotate(1deg);
+    width: 120px;
+  }
+
+  to {
+    transform: rotate(360deg);
+    width: 120px;
+  }
+}
+
+@keyframes rotate7 {
+
+  from {
+    transform: rotate(1deg);
+    width: 120px;
+  }
+
+  to {
+    transform: rotate(360deg);
+    width: 120px;
+  }
+}
